@@ -33,6 +33,7 @@ public class Window extends JFrame implements KeyListener{
 			case KeyEvent.VK_ESCAPE: System.exit(0); break;
 			case KeyEvent.VK_LEFT: field.direction = 'l'; break;
 			case KeyEvent.VK_RIGHT: field.direction = 'r'; break;
+			case KeyEvent.VK_C: field.gameOver = false; break;
 		}
 	}
 
